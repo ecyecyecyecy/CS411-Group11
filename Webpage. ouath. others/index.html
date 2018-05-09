@@ -1,0 +1,18 @@
+<!--index.html-->
+
+{% block body %}
+
+<div class="container" >
+  <br />
+  <br />
+  <center><h1> <strong> Safe-Search <strong></h1><center>
+  <center><h2> Enter Instagram Username: </h2><center>
+    <br />
+  <body style="background-color:powderblue;">
+  <center><form method = "post">
+      {% csrf_token %}
+      {{ form }} <button type = "submit" >OK</button><center>
+  </form>
+</div>
+
+{% endblock %}
