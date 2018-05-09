@@ -1,0 +1,16 @@
+We use google vision api which analyse the pictures and send us the results. This api will output the safe_search api which is basically
+if the picture is violent, for adults, about injuries(medical) and inappropriate context overall. There are some other data but these data 
+are the most useful to do further steps. The first verion of google vision api code is to use the labels api which just describes what 
+is shown in the picture with basic labels.
+
+We did not consider other same type of api yet because google vision seems to be working pretty well, 
+and the way to manage the result is clear.
+
+---2018.3.28 Update---
+We add Instagram api and create a webpage. The Instagram api is hard to use so we consider first hard-code the pictures and connect 
+Instagram and google vision. Which means we do not need the user to input a user name but just use several pictures we prepared.(demo version)
+The webpage alpha version is just a skeleton to present the result but nothing else.
+
+
+
+        
